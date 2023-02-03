@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <article class="main-section">
+      <header>
+        <h1>Notifications
+          <span id="notifications">3</span>
+        </h1>
+
+        <a href="#" id="main-btn" onclick="handleViews()" title="Marcar como lidas">Mark all as read</a>
+      </header>
+
+      <section class="blue card">
+        <section class="mark-info">
+          <figure>
+            <img src="./assets/images/avatar-mark-webber.webp" alt="Mark" width="45px" height="45px">
+          </figure>
+
+          <section class="mark-details">
+          <p>
+            <strong class="name">Mark Webber</strong>
+             reacted to your recent post 
+             <strong class="mftt">
+              My first tournament today!
+            </strong>
+            <span class="red-ball"></span>
+            </p>
+          <section class="date">
+            <span class="time-pass">1m ago</span>
+          </section>
+          </section>
+        </section>
+        
+      </section>
+
+      <section class="blue card">
+        <section class="angela-info">
+          <figure>
+            <img src="./assets/images/avatar-angela-gray.webp" alt="Angela" width="45px" height="45px">
+          </figure>
+          
+          <section class="angela-details">
+            <p>
+              <strong class="name">Angela Gray </strong>
+              <span>followed you</span>
+              <span class="red-ball"></span>
+            </p>
+            <section class="date">
+              <span class="date">5m ago</span>
+            </section>
+          </section>
+        </section>
+        
+      </section>
+
+      <section class="blue card">
+        <section class="jacob-info">
+          <figure>
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="Jaboc" width="45px" height="45px">
+          </figure>
+          
+          <section class="jacob-details">
+            <p>
+              <strong class="name">Jacob Thompson</strong>
+              has joined your group
+              <strong style="color: hsl(219, 85%, 26%); cursor: pointer;">Chess Club</strong>
+              <span class="red-ball"></span>
+            </p>
+              <section class="date">
+                <span class="time-pass">1 day ago</span>
+              </section>
+          </section>
+        
+        </section>
+      </section>
+
+      <section class="rizky card">
+
+        <section class="rizky-info">
+          <figure>
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky" width="45px" height="45px">
+          </figure>
+          <section class="rizky-details">
+            <p>
+              <strong class="name">Rizky Hasanuddin</strong>
+              sent you a private message
+            </p>
+            <section class="date">
+            <span class="time-pass">5 days ago</span>
+            </section>
+          </section>
+        </section>
+
+        <blockquote class="rizky-card">
+          <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+            I'm already having lots of fun and improving my game.</p>
+        </blockquote>
+      </section>
+
+      <section class="kimberly card">
+
+        <section class="kimberly-info">
+          <figure>
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="Kimberly" width="45px" height="45px">
+          </figure>
+          <section class="kimberly-details">
+            <p>
+              <strong class="name">Kimberly Smith </strong>
+              commented on your picture
+            </p>
+            <section class="date">
+              <p class="time-pass">1 week ago</p>
+            </section>
+          </section>
+          <figure>
+            <img src="./assets/images/image-chess.webp" alt="Chess" class="chess" width="45px" height="45px"
+            style="cursor: pointer;">
+          </figure>
+        </section>
+
+      </section>
+
+      <section class="nathan card">
+        <section class="nathan-info">
+          <figure>
+            <img src="./assets/images/avatar-nathan-peterson.webp" alt="Nathan" width="45px" height="45px">
+          </figure>
+          <section class="nathan-details">
+            <p>
+              <strong class="name">Nathan Peterson</strong>
+              reacted to your recent post <strong>
+                5 end-game strategies to increase your win rate</strong>
+            </p>
+           <section class="date">
+            <span class="time-pass">2 weeks ago</span>
+           </section>
+          </section>
+        </section>
+      </section>
+
+      <section class="anna card">
+        <section class="anna-info">
+          <figure>
+            <img src="./assets/images/avatar-anna-kim.webp" alt="Anna" width="45px" height="45px">
+          </figure>
+          <section class="anna-details">
+            <p>
+              <strong class="name">Anna Kim</strong>
+              left the group <strong style="color: hsl(219, 85%, 26%);">Chess Club</strong>
+            </p>
+            <section class="date">
+              <span class="time-pass">2 weeks ago</span>
+            </section>
+          </section>
+        </section>
+      </section>
+    </article>
+  </main>
+
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
